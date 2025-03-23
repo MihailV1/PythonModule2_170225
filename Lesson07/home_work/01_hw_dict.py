@@ -4,3 +4,6 @@
 
 my_dict = {"a": 1, "b": 2, "c": 3}
 key = input("Enter key: ")
+
+if key in my_dict:
+    my_dict.pop(key)
